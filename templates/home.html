@@ -6,7 +6,8 @@
     {% for post in object_list %}
     <div class="post-entry">
         <h2><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2>
-        <p>{{ post.body }}</p>
+        <p id="breakline">{{ post.body }}</p>
+        <img src="{{ post.post_image.url }}" alt="img" width="400px" height="300px">
     </div>
     {% endfor %}
 {% endblock content %}

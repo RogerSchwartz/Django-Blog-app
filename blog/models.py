@@ -8,7 +8,7 @@ class Post(models.Model):
         'auth.User',
         on_delete = models.CASCADE,
     )
-
+    post_image = models.ImageField(upload_to='upload')
     body = models.TextField()
     def __str__(self):
         return self.title
