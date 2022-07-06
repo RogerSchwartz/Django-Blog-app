@@ -39,7 +39,7 @@ $ python manage.py createsuperuser
 
 $ python manage.py runserver
 
-# Load the site at http://127.0.0.1:8000
+Load the site at http://127.0.0.1:8000
 
 Pipenv
 $ pipenv install
@@ -52,4 +52,4 @@ $ python manage.py createsuperuser
 
 $ python manage.py runserver
 
-# Load the site at http://127.0.0.1:8000
+Load the site at http://127.0.0.1:8000
